@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+    </head>
+<body>
+<img src="crop.png.jpg"
+width="40px"
+height="50px">
+   <h1>HTML Forms</h1>
+   <form>
+
+   <label for="username">enter username:</label>
+   <input type="text" id="username" name="username" required>
+   <br><br>
+   <label for="email">email:</label>
+   <input type="email" id="email" name="email" required>
+   <br><br>
+   <label for="password">enter password:</label>
+   <input type="password" id="password" name="password" required>
+
+   <p>select age group</p>
+   <input type="radio" name="age" value="20-23" id="option_1">
+   <label for="option_1">20-23</label><br>
+   <input type="radio" name="age" value="24-27" id="option_2">
+   <label for="option_1">24-27</label><br>
+   <input type="radio" name="age" value="28+" id="option_3">
+   <label for="option_1">28+</label>
+
+   <br><br>
+   <label for="question">security question</label>
+   <select name="question" id="question">
+    <option value="q1">what is your best food</option>
+    <option value="q2">what can you offer</option>
+    <option value="q3">What is your pay</option>
+   </select>
+
+   <br><br>
+   <label for="answer">security answer</label>
+   <input type="text" id="answer" name="answer">
+
+   <br><br>
+   <label for="bio">Your Bio:</label><br><br>
+   <textarea name="" id="" cols="30" rows="10" placeholder="about you..."></textarea>
+   <br>
+   <input type="submit" value="submit the form">
+</form>
+
+
+</body>
+</html>
